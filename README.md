@@ -1,20 +1,20 @@
 #Engenharia Reversa e Análise de designe de Software 
 
 PARTE 1 – Compreensão do Sistema
-1. Qual é o objetivo do sistema?
+01. Qual é o objetivo do sistema?
 
 O sistema tem como objetivo realizar o controle básico de pedidos de uma pastelaria, permitindo que o usuário selecione produtos, informe a quantidade e visualize o valor total da compra.
 
 Trata-se de uma aplicação simples, voltada para simular um cenário real de vendas.
 
-2. Quais são suas principais funcionalidades?
+02. Quais são suas principais funcionalidades?
 Seleção de produtos (pastel, caldo, refrigerante, etc.)
 Inserção da quantidade desejada
 Adição de itens ao pedido
 Listagem dos itens adicionados
 Cálculo automático do valor total
 Finalização do pedido
-3. Como o usuário interage com o sistema?
+03. Como o usuário interage com o sistema?
 
 O usuário interage por meio de uma interface web simples, onde:
 
@@ -27,7 +27,7 @@ Acompanha o valor total sendo atualizado
 A interação é direta e de fácil entendimento.
 
 PARTE 2 – Identificação de Elementos
-1. Quais são as principais funções do sistema?
+01. Quais são as principais funções do sistema?
 
 Com base no funcionamento, as principais funções envolvem:
 
@@ -35,7 +35,7 @@ Adicionar itens ao pedido
 Atualizar a lista de itens
 Calcular o valor total
 Finalizar o pedido
-2. Quais dados são manipulados?
+02. Quais dados são manipulados?
 
 O sistema trabalha com os seguintes dados:
 
@@ -47,7 +47,7 @@ Valor total do pedido
 
 Esses dados são utilizados para compor a lógica do sistema.
 
-3. Quais entidades podem ser extraídas?
+03. Quais entidades podem ser extraídas?
 
 Mesmo sem uso explícito de classes, é possível identificar algumas entidades importantes:
 
@@ -58,19 +58,19 @@ Pedido
 Essas entidades representam a estrutura lógica do sistema.
 
 PARTE 3 – Arquitetura
-1. O sistema possui arquitetura definida?
+01. O sistema possui arquitetura definida?
 
 O sistema não apresenta uma arquitetura formal definida.
 
 Ele é composto por arquivos separados de HTML, CSS e JavaScript, porém a lógica está concentrada no JavaScript sem divisão em camadas.
 
-2. Ele segue algum padrão (MVC, camadas, etc.)?
+02. Ele segue algum padrão (MVC, camadas, etc.)?
 
 Não há evidências da aplicação de padrões como MVC.
 
 A lógica de negócio e a manipulação da interface estão diretamente conectadas.
 
-3. Como você classificaria esse sistema?
+03. Como você classificaria esse sistema?
 
 O sistema pode ser classificado como uma aplicação simples, com estrutura monolítica, adequada para fins educacionais e de aprendizado.
 
